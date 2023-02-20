@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <h2 class="text-center">Sample Form</h2>
+    <form class="form-horizontal">
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="control-label col-sm-4">Part number</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" required>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label class="control-label col-sm-4">Part Description</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="control-label col-sm-4">Class</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-4">Quantity</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="col-sm-4 control-label">Total Amount</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" required>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="col-sm-4 control-label">SAP mvt</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="col-sm-4 control-label">Cogi Part Number</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="col-sm-4 control-label">Part Description</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="col-sm-4 control-label">MAP</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="col-sm-4 control-label">Quantity</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="col-sm-4 control-label">Total Amount</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" required>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="col-sm-4 control-label">SAP Mvt</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" required>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="col-sm-4 control-label">Net Variance</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" required>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12">
+            <div class="form-group">
+                <label class="control-label col-sm-2">Reasons if any</label>
+                <div class="col-sm-10">
+                    <textarea type="text" class="form-control" rows="2" required></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <button class="btn btn-primary waves-effect waves-light " id="btn-submit">Send</button>
+        </div>
+        <input type="hidden" name="action" id="action" value="event_dialog_add_newpartnerdata" />
+    </form>
+</body>
+
+</html>
